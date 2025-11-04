@@ -1,0 +1,63 @@
+{
+  "name": "@yourorg/theme-proivder-template",
+  "version": "0.0.3",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "description": "",
+  "scripts": {
+    "dev": "bun run",
+    "build": "bun run build.mjs",
+    "vitest": "vitest",
+    "prepublishOnly": "bun run build",
+    "docs": "typedoc"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "testing-library",
+    "typedoc",
+    "react",
+    "bun"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/wobsoriano/pkg-name#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wobsoriano/pkg-name.git"
+  },
+  "bugs": "https://github.com/wobsoriano/pkg-name/issues",
+  "author": "Robert Soriano <sorianorobertc@gmail.com>",
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@happy-dom/global-registrator": "^20.0.10",
+    "@types/bun": "^1.0.0",
+    "bun-plugin-dts": "^0.2.1",
+    "typedoc": "^0.28.14",
+    "typedoc-plugin-markdown": "^4.9.0",
+    "typescript": "^5.2.2",
+    "vitest": "^4.0.6"
+  },
+  "dependencies": {
+    "@types/jsdom": "^27.0.0",
+    "@types/react": "^19.2.2",
+    "jsdom": "^27.1.0",
+    "react-dom": "latest",
+    "react": "latest"
+  },
+  "peerDependencies": {
+    "react-dom": "latest",
+    "react": "latest",
+    "typescript": "^5.0.0"
+  },
+  "typedocOptions": {
+    "entryPointStrategy": "expand",
+    "entryPoints": ["src"],
+    "out": "docs/api",
+    "theme": "default",
+    "includeVersion": true,
+    "hideGenerator": true
+  }
+}
