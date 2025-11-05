@@ -1,25 +1,27 @@
-# bun starter
+# test-provider
 
-## Getting Started
+## test
 
-Click the [Use this template](https://github.com/wobsoriano/bun-lib-starter/generate) button to create a new repository with the contents starter.
-Click the [Or, this template](https://github.com/mingderwang/theme-proivder-template/generate) button to create a new repository with typedoc and react for a provider.
+```sh
+$ bun vitest
+vitest
 
-OR
+ DEV  v4.0.6 /private/tmp/test-provider
 
-Run `bun create mingderwang/theme-proivder-template ./my-provider`.
+ ✓ test/foo.vitest.tsx (1 test) 59ms
+ ✓ test/iteach.vitest.tsx (6 tests) 126ms
+ ✓ test/app.vitest.tsx (1 test) 103ms
+ ✓ test/component.vitest.tsx (1 test) 83ms
+ ✓ test/dom.vitest.ts (1 test) 14ms
+ ✓ test/ColorProvider.vitest.tsx (1 test) 51ms
 
-## Setup
+ Test Files  6 passed (6)
+      Tests  11 passed (11)
+   Start at  22:52:09
+   Duration  6.14s (transform 333ms, setup 3.65s, collect 381ms, tests 436ms, environment 5.49s, prepare 94ms)
 
-```bash
-# install dependencies
-bun install
-
-# test the app
-bun test
-
-# build the app, available under dist
-bun run build
+ PASS  Waiting for file changes...
+       press h to show help, press q to quit
 ```
 
 ## License

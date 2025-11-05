@@ -1,6 +1,6 @@
 {
-  "name": "@yourorg/theme-proivder-template",
-  "version": "0.0.3",
+  "name": "@yourorg/test-proivder",
+  "version": "0.0.4",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "description": "",
@@ -15,6 +15,7 @@
     "dist"
   ],
   "keywords": [
+    "test",
     "testing-library",
     "typedoc",
     "react",
@@ -44,12 +45,12 @@
     "@types/jsdom": "^27.0.0",
     "@types/react": "^19.2.2",
     "jsdom": "^27.1.0",
-    "react-dom": "latest",
-    "react": "latest"
+    "react-dom": "19.2.0",
+    "react": "19.2.0"
   },
   "peerDependencies": {
-    "react-dom": "latest",
-    "react": "latest",
+    "react-dom": "19.2.0",
+    "react": "19.2.0",
     "typescript": "^5.0.0"
   },
   "typedocOptions": {
